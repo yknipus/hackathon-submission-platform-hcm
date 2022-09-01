@@ -1,0 +1,56 @@
+name: SheCodes Hackathon Submission
+description: Add a submission for SheCodes Hackathon 2022
+title: "[Project]: "
+labels: ["reviewneeded"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for participating in the hackathon and creating your submission!
+  - type: input
+    id: team-name
+    attributes:
+      label: Team's name
+      description: Enter your team's name
+      placeholder: Fantastic Bugs
+    validations:
+      required: true
+  - type: input
+    id: team-id
+    attributes:
+      label: Team's ID
+      description: Enter your team's id
+      placeholder: "0123"
+    validations:
+      required: true
+  - type: input
+    id: deployment
+    attributes:
+      label: Project Preview
+      description: Deployment of your product. A video demo of the product's features is also acceptable, if you have not deployed.
+      placeholder: https://hackathon.shecodesvietnam.com/
+    validations:
+      required: true
+  - type: textarea
+    id: project-link
+    attributes:
+      label: Project Codebase
+      description: Link to your project's repository. Separate by line-break(s) if there are more than one.
+      placeholder: https://github.com/shecodesvietnam/hackathon-submission-platform
+    validations:
+      required: true
+  - type: textarea
+    id: anything-else
+    attributes:
+      label: Anything Else?
+      description: Any other feedback, queries or information, you would like to share with us?
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Rules and Code of Conduct
+      description: By submitting this issue, you agree to follow our Rules and Code of Conduct.
+      options:
+        - label: I agree to follow this hackathon's Rules and Code of Conduct
+          required: true
