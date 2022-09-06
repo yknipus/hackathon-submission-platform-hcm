@@ -40,6 +40,13 @@ body:
     validations:
       required: true
   - type: textarea
+    id: presentation
+    attributes:
+      label: Presentation
+      description: Drag and drop your presentation here. The presentaion can be in any format. (.pdf, .pptx, etc.)
+    validations:
+      required: true
+  - type: textarea
     id: anything-else
     attributes:
       label: Anything Else?
