@@ -51,5 +51,5 @@ body:
       label: Rules and Code of Conduct
       description: By submitting this issue, you agree to follow our Rules and Code of Conduct.
       options:
-        - label: I agree to follow this hackathon's [Rules](/RULES.md) and [Code of Conduct](/CODE_OF_CONDUCT.md)
+        - label: I agree to follow this hackathon's [Rules](../RULES.md) and [Code of Conduct](../CODE_OF_CONDUCT.md)
           required: true
