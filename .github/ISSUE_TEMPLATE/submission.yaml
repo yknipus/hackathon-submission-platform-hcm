@@ -16,14 +16,6 @@ body:
     validations:
       required: true
   - type: input
-    id: team-id
-    attributes:
-      label: Team's ID
-      description: Enter your team's id
-      placeholder: "0123"
-    validations:
-      required: true
-  - type: input
     id: deployment
     attributes:
       label: Project Preview
@@ -59,5 +51,5 @@ body:
       label: Rules and Code of Conduct
       description: By submitting this issue, you agree to follow our Rules and Code of Conduct.
       options:
-        - label: I agree to follow this hackathon's Rules and Code of Conduct
+        - label: I agree to follow this hackathon's [Rules](RULES.md) and [Code of Conduct](CODE_OF_CONDUCT.md)
           required: true
