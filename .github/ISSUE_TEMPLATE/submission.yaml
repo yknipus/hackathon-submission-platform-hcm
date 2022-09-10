@@ -11,7 +11,7 @@ body:
     id: team-name
     attributes:
       label: Team's name
-      description: Enter your team's name
+      description: Enter your team's name.
       placeholder: Fantastic Bugs
     validations:
       required: true
@@ -19,7 +19,7 @@ body:
     id: team-id
     attributes:
       label: Team's ID
-      description: Enter your team's ID
+      description: Enter your team's ID.
       placeholder: '0123'
     validations:
       required: true
