@@ -43,7 +43,7 @@ body:
     id: presentation
     attributes:
       label: Presentation
-      description: Drag and drop your presentation here. The presentaion can be in any format. (.pdf, .pptx, etc.)
+      description: Focus on this input, then drag and drop your presentation here. The presentaion can be in any format. (.pdf, .pptx, etc.)
     validations:
       required: true
   - type: textarea
