@@ -1,7 +1,6 @@
 name: SheCodes Hackathon Submission
 description: Add a submission for SheCodes Hackathon 2022
 title: "[Project]: "
-labels: ["reviewneeded"]
 body:
   - type: markdown
     attributes:
